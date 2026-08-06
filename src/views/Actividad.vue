@@ -2,8 +2,6 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
-      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
       #Actividad                
       <ActividadController :cuestionario="cuestionario"/>
   
@@ -19,489 +17,690 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Verificación, control y análisis de riesgos sanitarios',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> afianzar los conceptos fundamentales sobre factores de contaminación, programas de saneamiento y medidas preventivas en la industria de alimentos, mediante la resolución de un cuestionario de verdadero-falso con retroalimentación inmediata.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
-      titulo_reprobado: 'VUELVA A INTENTARLO',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
+      mensaje_aprobado:
+        '¡Excelente! ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+      mensaje_reprobado:
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Qué son los programas de saneamiento en la industria alimentaria?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Un conjunto de actividades y procedimientos para mantener las instalaciones y equipos en condiciones higiénicas.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Un sistema para aumentar la producción de alimentos.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Un método para reducir los costos de producción.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Un documento que solo se usa para auditorías.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Correcto. Los programas de saneamiento son el conjunto de actividades y procedimientos que mantienen las instalaciones, equipos y procesos en condiciones higiénicas óptimas, previniendo la contaminación de los alimentos.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            'Según la Resolución 2674 de 2013, ¿cuál de los siguientes es un programa de saneamiento obligatorio?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Programa de ventas y marketing.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Programa de diseño de empaques.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Programa de limpieza y desinfección (POES).',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Programa de relaciones públicas.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. La Resolución 2674 de 2013 establece la obligatoriedad de implementar programas de limpieza y desinfección (POES), control de plagas, manejo de residuos, entre otros.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Cuál es la diferencia entre el mantenimiento preventivo y el correctivo?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto:
+                'El preventivo se hace después de una falla; el correctivo, antes.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+                'El preventivo se planifica para evitar fallas; el correctivo reacciona ante fallas.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'El preventivo es más costoso que el correctivo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto:
+                'El correctivo es el enfoque preferido en la industria alimentaria.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. El mantenimiento preventivo se planifica para evitar fallas antes de que ocurran, mientras que el correctivo se realiza cuando el equipo ya falló.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Qué tipo de verificación se realiza al inspeccionar visualmente que una superficie esté libre de suciedad?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verificación analítica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Verificación operacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Verificación microbiológica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Verificación visual.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto. La verificación visual es la primera línea de control y consiste en inspeccionar que no haya residuos de alimentos, jabón o suciedad visible en las superficies.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cuál es el rango de cloro residual libre que debe tener el agua potable según la normativa colombiana?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: '0.1 a 0.2 ppm.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '0.3 a 2.0 ppm.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: '2.5 a 5.0 ppm.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '5.0 a 10.0 ppm.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto. Según la Resolución 2115 de 2007, el cloro residual libre en el agua para consumo humano debe estar entre 0.3 y 2.0 ppm para garantizar su potabilidad.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 6,
+          texto: '¿Qué tipo de residuo son las cáscaras de frutas y verduras?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Residuos peligrosos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: 'Residuos orgánicos biodegradables.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Residuos aprovechables (reciclables).',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Residuos con riesgo biológico.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. Las cáscaras de frutas y verduras son residuos orgánicos biodegradables, es decir, se descomponen naturalmente y pueden ser aprovechados para compostaje.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Qué son los POES (Procedimientos Operativos Estandarizados de Saneamiento)?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto:
+                'Descripciones detalladas de cómo realizar las tareas de limpieza y desinfección.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Equipos para medir la temperatura de los alimentos.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Documentos para registrar las ventas del día.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Un sistema para controlar plagas en la planta.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. Los POES son documentos que describen paso a paso cómo, cuándo, dónde y con qué se deben realizar las tareas de limpieza y desinfección.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál de los siguientes es un peligro físico en los alimentos?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Bacterias como la Salmonella.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Residuos de detergentes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Toxinas naturales como las aflatoxinas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Virutas de metal de maquinaria.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. Las virutas de metal son un peligro físico porque son objetos extraños que pueden causar lesiones al consumidor.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué bacteria puede crecer a temperaturas de refrigeración (2°C a 4°C)?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Escherichia coli.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Listeria monocytogenes.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Salmonella spp.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Staphylococcus aureus.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. Listeria monocytogenes es una bacteria psicotrofa, lo que significa que puede multiplicarse a temperaturas de refrigeración, lo que la hace especialmente peligrosa en productos listos para consumo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál es la principal ruta de transmisión de virus como la Hepatitis A en los alimentos?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Contaminación cruzada de superficies.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Manipuladores infectados que no se lavan las manos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Alimentos cocidos a temperaturas inadecuadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Residuos de plaguicidas en frutas y verduras.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. Los virus como la Hepatitis A y el Norovirus se transmiten principalmente por manipuladores infectados que contaminan los alimentos al no lavarse las manos adecuadamente.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué es un Punto Crítico de Control (PCC) en el sistema HACCP?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Cualquier punto del proceso donde se puede aplicar un control.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Un registro de las temperaturas de los equipos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Un punto específico donde el control es esencial para prevenir, eliminar o reducir un peligro significativo.',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto: 'Un programa de capacitación para el personal.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. Un PCC es un punto específico donde el control es esencial para garantizar la inocuidad. No todos los puntos de control son PCC; muchos peligros se controlan mediante los programas de saneamiento (prerrequisitos).',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Qué herramienta se utiliza para investigar la causa raíz de una no conformidad?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La lista de verificación de BPM.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El programa de control de plagas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El análisis de cloro residual.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El método de los 5 Porqués.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto. El método de los 5 Porqués es una herramienta simple pero poderosa que consiste en preguntar "¿por qué?" repetidamente hasta llegar a la causa fundamental del problema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 13,
+          texto:
+            '¿Cuál de las siguientes es una barrera física para el control de plagas?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Insecticidas y rodenticidas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Feromonas para confusión sexual.',
               esCorrecta: false,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto: 'Mosquiteros en ventanas y cortinas de aire.',
               esCorrecta: true,
             },
             {
-              id: 'b',
-              texto: 'Falso',
+              id: 'd',
+              texto: 'Estaciones de cebo para roedores.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. Los mosquiteros y las cortinas de aire son barreras físicas que impiden la entrada de plagas a las instalaciones.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué tipo de peligro representan los residuos de detergente en una superficie mal enjuagada?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Peligro físico.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Peligro químico.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Peligro biológico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Peligro ergonómico.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. Los residuos de productos de limpieza que no son adecuadamente enjuagados constituyen un peligro químico, ya que pueden contaminar el alimento y causar intoxicaciones.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Cuál es el objetivo principal del diagnóstico sanitario en una empresa de alimentos?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Aumentar la producción de alimentos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir los costos de materia prima.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Determinar la situación actual en materia de higiene e inocuidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Diseñar nuevos empaques para los productos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto. El diagnóstico sanitario es una evaluación sistemática que permite conocer la situación actual de la empresa en materia de higiene e inocuidad, identificando fortalezas, debilidades y riesgos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué tipo de residuo son los envases de plaguicidas o desinfectantes vacíos?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Residuos aprovechables (reciclables).',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Residuos orgánicos biodegradables.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Residuos ordinarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Residuos peligrosos.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto. Los envases de plaguicidas y desinfectantes son residuos peligrosos porque contienen sustancias tóxicas que representan un riesgo para la salud y el ambiente.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué establece el Decreto 60 de 2002 en relación con el HACCP?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Que los programas de saneamiento son la base para implementar el HACCP.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Que el HACCP reemplaza a los programas de saneamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Que el HACCP solo aplica a productos importados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Que el HACCP no requiere ningún documento.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto. El Decreto 60 de 2002 promueve la aplicación del HACCP y establece que los programas de saneamiento (prerrequisitos) son la base sobre la cual se construye dicho sistema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cuál es la zona de peligro de temperaturas para el crecimiento bacteriano en alimentos?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: '0°C a 4°C.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '5°C a 60°C.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: '60°C a 100°C.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '-18°C a 0°C.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto. La zona de peligro está entre 5°C y 60°C, donde las bacterias pueden multiplicarse rápidamente en los alimentos si se mantienen a esas temperaturas por tiempo prolongado.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué son las Buenas Prácticas de Manufactura (BPM)?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Un sistema para aumentar las ventas de alimentos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Un método para reducir el personal de producción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Un programa para diseñar nuevos productos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Los principios básicos de higiene en la manipulación y elaboración de alimentos.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto. Las BPM son los principios básicos y prácticas generales de higiene que se aplican en la manipulación, preparación, elaboración y almacenamiento de alimentos para garantizar su inocuidad.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál es la primera barrera contra los peligros de contaminación en una planta de alimentos?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El sistema HACCP.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El detector de metales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Los programas de saneamiento.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La capacitación del personal.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-      ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
-      mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
+          mensaje_correcto:
+            'Correcto. Los programas de saneamiento son la primera y más importante barrera contra los peligros de contaminación. Actúan como la base sobre la cual se construyen sistemas más avanzados como el HACCP.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
     },
   }),
 }
 </script>
+
+<style lang="sass"></style>

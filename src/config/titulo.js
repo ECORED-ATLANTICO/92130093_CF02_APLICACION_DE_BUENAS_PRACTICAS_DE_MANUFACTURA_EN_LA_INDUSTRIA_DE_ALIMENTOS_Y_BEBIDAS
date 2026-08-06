@@ -1,1 +1,1 @@
-module.exports = 'Titulo del componente formativo'
+module.exports = 'Verificación, control y análisis de riesgos sanitarios'
