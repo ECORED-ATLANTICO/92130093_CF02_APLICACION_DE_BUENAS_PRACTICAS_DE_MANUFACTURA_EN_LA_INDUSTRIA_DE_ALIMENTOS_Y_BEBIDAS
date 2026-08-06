@@ -388,7 +388,7 @@
       .col-lg-10.col-md-12
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-8.mb-4.mb-lg-0
-            AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-3 bg-color-nuevo")
+            AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-03 bg-color-nuevo")
               div(titulo="Monitoreo de cloro residual libre")
                 p.mb-0 Consiste en medir el cloro residual libre en los puntos de uso, como grifos, tanques de lavado y mangueras, diariamente o con la frecuencia establecida por la organización (generalmente cada cuatro horas en procesos de producción continua). El resultado debe encontrarse dentro del rango establecido por la normativa vigente (entre 0,3 y 2,0 ppm). Para esta actividad se emplean kits colorimétricos o tiras reactivas.
 
