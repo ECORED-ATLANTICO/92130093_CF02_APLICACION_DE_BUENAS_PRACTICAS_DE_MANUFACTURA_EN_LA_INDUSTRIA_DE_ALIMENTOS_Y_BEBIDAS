@@ -26,585 +26,356 @@
           img(src="@/assets/curso/tema4/img02.png", data-aos="zoom-in")
       .col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0
 
-        .bg-color-01.p-4.br-15.mb-0
+        .bg-color-02.p-4.br-15.mb-0
           p.mb-0 El diagnóstico sanitario corresponde a una evaluación sistemática que permite determinar la situación de una empresa o de un proceso en materia de higiene e inocuidad. Su propósito es identificar las condiciones sanitarias existentes, reconocer fortalezas y oportunidades de mejora, así como establecer los riesgos prioritarios que deben ser controlados. Más que un mecanismo de control con fines sancionatorios, constituye una herramienta orientada al mejoramiento continuo de los procesos.
 
-
-
-    //- .bg-full-width.bg-fondo-3.px-5.py-4
-    //-   img(src="@/assets/curso/tema4/img01.png", alt="")
-    //- .row.justify-content-center.align-items-center.z-2.mb-5
-    //-   .col-lg-11(data-aos="fade-right")
-    //-     p.banner-text Una vez que se ha planeado qué y cómo se va a registrar, el siguiente paso, y el más importante, es la ejecución. La teoría y los formatos no sirven de nada si en el día a día no se aplican las BPM. Este capítulo se enfoca en la práctica: en las acciones concretas que debe realizar el personal en la planta de producción.
-
-    //- separador
-    
-    //- #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-    //-   h2 4.1 Higiene y salud del personal manipulador
-
-    //- .bloque-texto-g.bg-color-1.p-3.p-sm-4.p-md-5.mb-5
-    //-   .bloque-texto-g__img(
-    //-     :style="{'background-image': `url(${require_src('@/assets/curso/tema4/img02.png')})`}"
-    //-   )
-    //-   .bloque-texto-g__texto.p-4
-    //-     p.mb-0 El personal es la principal fuente de contaminación de los alimentos, pero también es la primera barrera de control. Por eso, su higiene y salud son aspectos críticos. Para ejecutar correctamente las BPM, el personal debe cumplir con las siguientes prácticas:
-
-
-    //- .row.mb-5.justify-content-center.align-items-center
-    //-   .col-lg-12
-    //-     AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-c1")
-    //-       div(titulo="Estado de salud")
-    //-         .row.align-items-center.justify-content-center
-    //-           .col-lg-7.col-md-12.order-2.mb-0.mb-lg-0
-    //-             figure
-    //-               img(src="@/assets/curso/tema4/img03.png", data-aos="zoom-in").mx-auto
-    //-           .col-lg-5.order-1.mb-4.mb-lg-0
-    //-             p.mb-0 Ninguna persona que padezca una enfermedad transmisible, tenga heridas infectadas, infecciones cutáneas o diarrea puede trabajar en la manipulación de alimentos. Debe reportar su condición a su supervisor.
-
-    //-       div(titulo="Baño diario")
-    //-         .row.align-items-center.justify-content-center
-    //-           .col-lg-7.col-md-12.order-2.mb-0.mb-lg-0
-    //-             figure
-    //-               img(src="@/assets/curso/tema4/img04.png", data-aos="zoom-in").mx-auto
-    //-           .col-lg-5.order-1.mb-4.mb-lg-0
-    //-             p.mb-0 Es indispensable que el manipulador de alimentos llegue limpio al trabajo. La higiene corporal diaria es la base para evitar la contaminación de los alimentos por microorganismos presentes en la piel.
-
-    //-       div(titulo="Uniforme completo y limpio")
-    //-         .row.align-items-center.justify-content-center
-    //-           .col-lg-7.col-md-12.order-2.mb-0.mb-lg-0
-    //-             figure
-    //-               img(src="@/assets/curso/tema4/img05.png", data-aos="zoom-in").mx-auto
-    //-           .col-lg-5.order-1.mb-4.mb-lg-0
-    //-             p.mb-0 El uniforme debe incluir: chaqueta o delantal (claro para detectar suciedad), pantalón, gorro que cubra totalmente el cabello, calzado antideslizante y de seguridad. Si se usa barba o bigote, se debe usar tapabocas.
-
-    //-       div(titulo="Uñas")
-    //-         .row.align-items-center.justify-content-center
-    //-           .col-lg-7.col-md-12.order-2.mb-0.mb-lg-0
-    //-             figure
-    //-               img(src="@/assets/curso/tema4/img06.png", data-aos="zoom-in").mx-auto
-    //-           .col-lg-5.order-1.mb-4.mb-lg-0
-    //-             p.mb-0 Las uñas deben estar cortas, limpias y sin esmalte. Las uñas largas o con esmalte pueden retener suciedad, bacterias y fragmentos que contaminen los alimentos.
-
-    //-       div(titulo="Joyas y accesorios")
-    //-         .row.align-items-center.justify-content-center
-    //-           .col-lg-7.col-md-12.order-2.mb-0.mb-lg-0
-    //-             figure
-    //-               img(src="@/assets/curso/tema4/img07.png", data-aos="zoom-in").mx-auto
-    //-           .col-lg-5.order-1.mb-4.mb-lg-0
-    //-             p.mb-0 Está prohibido el uso de anillos, aretes, relojes, cadenas o cualquier otro adorno, ya que son focos de acumulación de suciedad y pueden caer en los alimentos, convirtiéndose en un peligro físico.
-
-
-
-    //- .bloque-texto-g.bg-color-2.p-3.p-sm-4.p-md-5.mb-5
-    //-   .bloque-texto-g__img(
-    //-     :style="{'background-image': `url(${require_src('@/assets/curso/tema4/img08.png')})`}"
-    //-   )
-    //-   .bloque-texto-g__texto.p-4
-    //-     p.mb-0 Las prácticas de higiene personal constituyen el primer paso para prevenir la contaminación de los alimentos; sin embargo, no son la única medida de control. El lavado frecuente y correcto de las manos es una de las principales acciones para prevenir la contaminación cruzada, ya que, durante la manipulación de alimentos, utensilios, productos de limpieza o residuos, las manos pueden convertirse en un vehículo de contaminación. Por esta razón, el lavado de manos debe realizarse siempre que se presenten las siguientes situaciones:
-
-
-    //- .row.justify-content-center.mb-5
-    //-   .col-lg-6.col-xl-5.mb-4.mb-lg-4.mb-xl-4
-    //-     .tarjeta-avatar-b.h-100
-    //-       .tarjeta-avatar-b__img
-    //-         img(src='@/assets/curso/tema4/img09.svg' alt='Al ingresar al área de producción')
-    //-       .tarjeta.bg-color-3
-    //-         .p-4
-    //-           h4 Al ingresar al área de producción
-    //-           p.mb-0 Es el primer filtro sanitario. Antes de tocar cualquier superficie, equipo o alimento, debe realizarse el lavado de manos.
-
-    //-   .col-lg-6.col-xl-5.mb-4.mb-lg-4.mb-xl-4
-    //-     .tarjeta-avatar-b.h-100
-    //-       .tarjeta-avatar-b__img
-    //-         img(src='@/assets/curso/tema4/img10.svg' alt='Después de ir al baño')
-    //-       .tarjeta.bg-color-3
-    //-         .p-4
-    //-           h4 Después de ir al baño
-    //-           p.mb-0 Este es un momento obligatorio e innegociable. Es la principal vía de contaminación fecal-oral.
-
-    //-   .col-lg-6.col-xl-5.mb-4.mb-lg-4.mb-xl-4
-    //-     .tarjeta-avatar-b.h-100
-    //-       .tarjeta-avatar-b__img
-    //-         img(src='@/assets/curso/tema4/img11.svg' alt='Después de manipular basura')
-    //-       .tarjeta.bg-color-3
-    //-         .p-4
-    //-           h4 Después de manipular basura
-    //-           p.mb-0 Los residuos son focos de contaminación. Tocarlos requiere un lavado inmediato al regresar a las áreas limpias.
-
-    //-   .col-lg-6.col-xl-5.mb-4.mb-lg-4.mb-xl-4
-    //-     .tarjeta-avatar-b.h-100
-    //-       .tarjeta-avatar-b__img
-    //-         img(src='@/assets/curso/tema4/img12.svg' alt='Después de estornudar o toser')
-    //-       .tarjeta.bg-color-3
-    //-         .p-4
-    //-           h4 Después de estornudar o toser
-    //-           p.mb-0 Aunque sea en el codo, la mucosidad puede transferirse. El lavado de manos es necesario para evitar cualquier riesgo de contaminación.
-
-    //-   .col-lg-6.col-xl-5.mb-4.mb-lg-4.mb-xl-4
-    //-     .tarjeta-avatar-b.h-100
-    //-       .tarjeta-avatar-b__img
-    //-         img(src='@/assets/curso/tema4/img13.svg' alt='Después de manipular alimentos crudos')
-    //-       .tarjeta.bg-color-3
-    //-         .p-4
-    //-           h4 Después de manipular alimentos crudos
-    //-           p.mb-0 Antes de tocar alimentos cocidos. Para evitar la contaminación cruzada, este lavado es crítico e ineludible.
-
-    //-   .col-lg-6.col-xl-5.mb-4.mb-lg-4.mb-xl-0
-    //-     .tarjeta-avatar-b
-    //-       .tarjeta-avatar-b__img
-    //-         img(src='@/assets/curso/tema4/img14.svg' alt='Cada vez que se cambie de actividad')
-    //-       .tarjeta.bg-color-3.h-100
-    //-         .p-4
-    //-           h4 Cada vez que se cambie de actividad
-    //-           p.mb-0 Esta es la regla de oro del manipulador. Siempre que se interrumpa una tarea y se inicie otra, el lavado de manos es obligatorio.
-
-    //- .container
-    //-   .titulo-con-imagen.mb-5(data-aos="fade-right")
-    //-     .titulo-con-imagen__fondo
-    //-       img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
-    //-       h3.titulo-con-imagen__texto Comportamiento en la planta:
-
-    //- .row.mb-4.justify-content-center.align-items-center
-    //-   .col-lg-5.col-md-8.mb-4.mb-lg-0.order-1.order-lg-1
-    //-     figure
-    //-       img(src="@/assets/curso/tema4/img15.png", data-aos="zoom-in")
-    //-   .col-lg-5.order-2.order-lg-2
-    //-     .row.justify-content-center.mb-5
-    //-       .col-lg-12.col-xl-12.mb-4.mb-lg-4.mb-xl-4
-    //-         .tarjeta-avatar-b.h-100
-    //-           .tarjeta-avatar-b__img
-    //-             img(src='@/assets/curso/tema4/img16.svg' alt='Prohibido comer o beber')
-    //-           .tarjeta.bg-color-2.h-100
-    //-             .p-4
-    //-               p.mb-0 No está permitido comer, beber, fumar o masticar chicle en las áreas de producción.
-
-    //-       .col-lg-12.col-xl-12.mb-4.mb-lg-4.mb-xl-4
-    //-         .tarjeta-avatar-b.h-100
-    //-           .tarjeta-avatar-b__img
-    //-             img(src='@/assets/curso/tema4/img17.svg' alt='No estornudar sobre alimentos')
-    //-           .tarjeta.bg-color-2.h-100
-    //-             .p-4
-    //-               p.mb-0 No se debe estornudar o toser sobre los alimentos.
-
-    //-       .col-lg-12.col-xl-12.mb-0
-    //-         .tarjeta-avatar-b.h-100
-    //-           .tarjeta-avatar-b__img
-    //-             img(src='@/assets/curso/tema4/img18.svg' alt='Mantener el área limpia')
-    //-           .tarjeta.bg-color-2.h-100
-    //-             .p-4
-    //-               p.mb-0 Se debe mantener el área de trabajo ordenada y limpia durante la producción.
+    p.mb-5 Para su desarrollo, el diagnóstico sanitario se fundamenta en la recopilación y el análisis de información proveniente de diferentes fuentes, mediante una metodología estructurada que comprende las siguientes etapas:
 
   
-    //- .row.mb-5.justify-content-center.align-items-center
-    //-   .col-lg-12
-    //-     .bg-color-7.p-4.br-15
-    //-       p.mb-0 A continuación, escuche el siguiente podcast, en el que se amplían los contenidos relacionados con la higiene del personal manipulador y la importancia del lavado de manos como una de las principales medidas para prevenir la contaminación de los alimentos.
+    .row.justify-content-center.mb-5
+      .col-md-12.col-lg-10.col-xl-10.mb-4
+        .tarjeta-avatar-b.h-100
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema4/img05.svg' alt='')
+          .tarjeta.bg-color-01.h-100
+            .px-2.py-3
+              p.mb-0.p-1 <b>Planificación:</b> definir el alcance del diagnóstico, incluyendo las áreas, los procesos y los programas que serán evaluados; conformar el equipo evaluador; seleccionar las listas de chequeo, elaboradas con base en la Resolución 2674 de 2013 y las Buenas Prácticas de Manufactura (BPM); y establecer el cronograma de trabajo.
+
+      .col-md-12.col-lg-10.col-xl-10.mb-4
+        .tarjeta-avatar-b.h-100
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema4/img06.svg' alt='')
+          .tarjeta.bg-color-01.h-100
+            .px-2.py-3
+              p.mb-0.p-1 <b>Revisión documental:</b> realizar el análisis de los programas documentados, los registros de los programas de saneamiento correspondientes a los últimos tres a seis meses, las actas de auditorías anteriores, los registros de control de calidad, los certificados de proveedores y los planes de capacitación, entre otros documentos. Esta etapa permite verificar la coherencia entre la documentación y los registros, así como identificar el cumplimiento de los requisitos establecidos.
+
+      .col-md-12.col-lg-10.col-xl-10.mb-4
+        .tarjeta-avatar-b.h-100
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema4/img07.svg' alt='')
+          .tarjeta.bg-color-01.h-100
+            .px-2.py-3
+              p.mb-0.p-1 <b>Inspección visual en sitio:</b> efectuar un recorrido por las diferentes áreas de la organización, como almacenes, producción, servicios sanitarios, zonas de residuos y laboratorios, utilizando las listas de chequeo definidas para el diagnóstico. Durante esta actividad se verifican las condiciones de infraestructura, el estado de higiene, las prácticas del personal y las condiciones de funcionamiento de los equipos.
+
+      .col-md-12.col-lg-10.col-xl-10.mb-4
+        .tarjeta-avatar-b.h-100
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema4/img08.svg' alt='')
+          .tarjeta.bg-color-01.h-100
+            .px-2.py-3
+              p.mb-0.p-1 <b>Observación de prácticas y entrevistas:</b> verificar la forma en que el personal ejecuta las actividades establecidas en los procedimientos y realizar entrevistas a operarios y supervisores para identificar las dificultades presentadas durante la operación, así como las desviaciones que pueden no estar registradas en la documentación.
+
+      .col-md-12.col-lg-10.col-xl-10.mb-4
+        .tarjeta-avatar-b.h-100
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema4/img09.svg' alt='')
+          .tarjeta.bg-color-01.h-100
+            .px-2.py-3
+              p.mb-0.p-1 <b>Análisis de resultados de laboratorio:</b> revisar las tendencias de los resultados obtenidos en los análisis de agua, superficies (hisopados) y producto terminado correspondientes a los últimos meses, con el fin de identificar patrones o problemas recurrentes.
+
+      .col-md-12.col-lg-10.col-xl-10.mb-0
+        .tarjeta-avatar-b.h-100
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema4/img10.svg' alt='')
+          .tarjeta.bg-color-01.h-100
+            .px-2.py-3
+              p.mb-0.p-1 <b>Consolidación y análisis:</b> integrar la información recopilada y analizar los resultados para identificar las no conformidades y las oportunidades de mejora.
+
+    p.mb-5 Una vez finalizado el diagnóstico, la información debe presentarse en un informe claro, objetivo y orientado a la toma de decisiones. Dado que los hallazgos no presentan el mismo nivel de riesgo, es necesario priorizarlos de acuerdo con su impacto sobre la inocuidad de los alimentos. Una clasificación común contempla los siguientes niveles:
 
 
+    .row.mb-4.justify-content-center.align-items-center
+      .col-lg-3.col-md-8.mb-4.mb-lg-0.order-1.order-lg-2
+        figure
+          img(src="@/assets/curso/tema4/img11.png", data-aos="zoom-in")
+      .col-lg-7.order-2.order-lg-1.mb-4.mb-lg-0
 
-    //- .container
-    //-   .row.justify-content-center.align-items-center.mb-3
-    //-     .col-lg-7.order-lg-2.order-2
-    //-       .row.bg-color-3.align-items-center.justify-content-center.br-15.p-0
-    //-         .col-md-8.col-lg-5.mb-3.mb-lg-0.order-2.order-md-2.order-lg-1.p-0
-    //-           figure
-    //-             img(src="@/assets/curso/tema4/img39.png", data-aos="fade-right")
-    //-         .col-lg-7.order-1.order-md-1.order-lg-2.p-4.p-lg-3
-    //-           p(data-aos="fade-left").mb-4 A continuación, se invita a ir al siguiente podcast: 
-    //-           TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-    //-             texto="Operaciones seguras de cargue, descargue y manejo de equipos en la logística"
-    //-             tiempo
-    //-             :audio="require_src('@/assets/curso/audio/2.mp3')"
-    //-           )
-    //-     .col-lg-5.col-md-8.order-lg-1.order-1.mb-4.mb-lg-0
-    //-       figure
-    //-         img(src="@/assets/curso/tema4/img19.png", data-aos="zoom-in")
+        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-03 bg-color-nuevo").mb-0
+          div(titulo="Crítico")
+            p.mb-0 Corresponde a un peligro inminente para la salud pública (ej. presencia de Listeria en una superficie en contacto con alimentos, ausencia de cloro residual en el agua o presencia de una plaga activa en el área de producción). Requiere la implementación inmediata de acciones correctivas.
 
+          div(titulo="Mayor")
+            p.mb-0 Corresponde al incumplimiento significativo de un requisito normativo que podría generar un peligro para la inocuidad si no se controla oportunamente (ej. Procedimientos Operativos Estandarizados de Saneamiento (POES) no implementados, ausencia de registros críticos o grietas en paredes que favorecen la acumulación de suciedad).
 
-    //- separador
+          div(titulo="Menor")
+            p.mb-0 Corresponde a un incumplimiento que no representa un peligro inmediato para la inocuidad, pero que afecta la organización o el funcionamiento del sistema (ej. una etiqueta incorrectamente ubicada o un formato desactualizado).
+
+    .row.mb-4.justify-content-center.align-items-center
+      .col-lg-10
+        .bg-color-02.p-4.br-15
+          p.mb-0 El informe debe incluir acciones correctivas y preventivas para cada hallazgo priorizado, indicando los responsables de su ejecución y los plazos establecidos para su cumplimiento. Este documento constituye la base para la formulación de los planes de mejora y para la asignación de los recursos necesarios para su implementación.
+
+    separador
     
-    //- #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-    //-   h2 4.2 Procedimientos de limpieza y desinfección
+    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 4.2 Principios del Sistema HACCP (Análisis de Peligros y Puntos Críticos de Control)
 
 
 
-    //- .bloque-texto-g.bg-color-1.p-3.p-sm-4.p-md-5.mb-5
-    //-   .bloque-texto-g__img(
-    //-     :style="{'background-image': `url(${require_src('@/assets/curso/tema4/img20.png')})`}"
-    //-   )
-    //-   .bloque-texto-g__texto.p-4
-    //-     p.mb-0 Los POES son los Procedimientos Operativos Estandarizados de Saneamiento. Corresponden a documentos que describen, paso a paso, cómo realizar la limpieza y desinfección de una superficie, un equipo o un área específica. La correcta ejecución de estos procedimientos es vital.
+    .row.mb-5.justify-content-center.align-items-center
+      .col-lg-6.col-md-10.mb-0.mb-lg-0.order-2.order-lg-1
+        figure
+          img(src="@/assets/curso/tema4/img12.png", data-aos="zoom-in")
+      .col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0
 
-    //- p.mb-4 Un POES bien redactado debe incluir:
-
-    
-    //- .row.mb-5.justify-content-center.align-items-center
-    //-   .col-lg-4.col-md-12.mb-4.mb-lg-0.order-1.order-lg-1
-    //-     figure
-    //-       img(src="@/assets/curso/tema4/img21.svg", data-aos="zoom-in")
-    //-   .col-lg-8.order-2.order-lg-2
-    //-     p.mb-2.mb-lg-0 <b>Objetivo:</b> ¿Qué se va a limpiar y desinfectar?
-    //-     p.mb-2.mb-lg-0 <b>Responsable:</b> ¿Quién lo hace?
-    //-     p.mb-2.mb-lg-0 <b>Frecuencia:</b> ¿Cada cuánto se hace? (ej. diario, cada 4 horas, al finalizar la producción).
-    //-     p.mb-2.mb-lg-0 <b>Elementos de protección personal (EPP):</b> ¿Qué debe usar el operario? (guantes de nitrilo, delantal impermeable, gafas).
-    //-     p.mb-2.mb-lg-0 <b>Insumos y materiales:</b> ¿Qué productos y utensilios se necesitan? (detergente, desinfectante, esponjas, cepillos, baldes, paños de un solo uso).
-    //-     p.mb-0 <b>Procedimiento paso a paso:</b> descripción detallada y secuencial de las actividades.
+        .bg-color-01.p-4.br-15.mb-0
+          p.mb-0 Cuando los programas de saneamiento (prerrequisitos) se encuentran implementados, documentados y sujetos a procesos permanentes de verificación, es posible implementar el Sistema de Análisis de Peligros y Puntos Críticos de Control (HACCP), un enfoque preventivo, sistemático y basado en criterios científicos para garantizar la inocuidad de los alimentos. El Sistema HACCP se orienta al control de los peligros significativos que pueden afectar la seguridad del producto y que no pueden ser controlados únicamente mediante los programas prerrequisito.
 
 
-    //- .container
-    //-   .titulo-con-imagen.mb-5(data-aos="fade-right")
-    //-     .titulo-con-imagen__fondo
-    //-       img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
-    //-       h3.titulo-con-imagen__texto A. Técnicas de limpieza: prelavado, lavado, enjuague.
-    
-    //- p.mb-4 La limpieza es el proceso que elimina la suciedad visible (restos de comida, grasa, polvo). Es un paso fundamental antes de la desinfección.
+    p.mb-5 Este sistema se fundamenta en siete principios universalmente aceptados, los cuales deben aplicarse de manera secuencial:
 
     
-    //- .row.justify-content-center.mb-5
-    //-   .col-xl-4.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
-    //-     .crd_hover_txt(data-aos="flip-left").tarjeta
-    //-       .crd_hover_txt--img
-    //-         figure
-    //-           img(src="@/assets/curso/tema4/img22.png", alt="Prelavado")
-    //-       .crd_hover_txt--body
-    //-         h4.mb-3.text-center Prelavado
-    //-         p.mb-0 Consiste en retirar los residuos sólidos más grandes. Se puede hacer raspando con una espátula, cepillando en seco o con un chorro suave de agua. El objetivo es reducir la carga de suciedad para que el lavado sea más efectivo.
 
-    //-   .col-xl-4.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
-    //-     .crd_hover_txt(data-aos="flip-left").tarjeta
-    //-       .crd_hover_txt--img
-    //-         figure
-    //-           img(src="@/assets/curso/tema4/img23.png", alt="Lavado")
-    //-       .crd_hover_txt--body
-    //-         h4.mb-3.text-center Lavado
-    //-         p.mb-0 Se aplica una solución de agua caliente (45 °C - 50 °C) con un detergente desengrasante. La acción mecánica (frotar con cepillo o esponja) es crucial para desprender la grasa y la suciedad adherida.
+    .row.mb-3.mb-lg-5.justify-content-center.align-items-center
+      .col-lg-4.col-md-10.mb-0.mb-lg-0.order-2.order-lg-2
+        figure
+          img(src="@/assets/curso/tema4/img13.png", data-aos="zoom-in").mx-auto
+      .col-lg-8.col-md-12.order-1.order-lg-1.mb-5.mb-lg-0
+        .bg-fondo-5.p-4
+          SlyderA(tipo="b").bg-color-white.p-3.tarjeta
+            .tarjeta.p-3.h-100.mb-0
+              p.mb-0 <b>Realizar un análisis de peligros:</b> Identificar todos los peligros potenciales (físicos, químicos y biológicos) asociados con cada etapa del proceso, desde la recepción de materias primas hasta la distribución. Posteriormente, se evalúan la probabilidad de ocurrencia y la gravedad de cada peligro para determinar cuáles son significativos y deben ser controlados mediante el plan HACCP.
 
-    //-   .col-xl-4.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
-    //-     .crd_hover_txt(data-aos="flip-left").tarjeta
-    //-       .crd_hover_txt--img
-    //-         figure
-    //-           img(src="@/assets/curso/tema4/img24.png", alt="Enjuague")
-    //-       .crd_hover_txt--body
-    //-         h4.mb-3.text-center Enjuague
-    //-         p.mb-0 Se elimina completamente la suciedad y los residuos de detergente con abundante agua potable. Este paso es esencial, ya que los residuos de detergente pueden interferir con la acción del desinfectante.
+            .tarjeta.p-3.h-100.mb-0
+              p.mb-0 <b>Determinar los Puntos Críticos de Control (PCC):</b> Identificar los puntos, procedimientos o etapas del proceso en los que es posible aplicar una medida de control esencial para prevenir, eliminar o reducir un peligro significativo a un nivel aceptable. Por ejemplo, la pasteurización constituye un PCC para eliminar microorganismos patógenos en la leche, mientras que un detector de metales representa un PCC para controlar peligros físicos.
 
+            .tarjeta.p-3.h-100.mb-0
+              p.mb-0 <b>Establecer los límites críticos:</b> Definir los criterios, expresados como valores máximos y/o mínimos medibles, que diferencian un producto aceptable de uno no aceptable en un punto crítico de control. Por ejemplo, una temperatura de 72 °C durante 15 segundos para el proceso de pasteurización o la detección de partículas metálicas ferrosas de hasta 1,5 mm.
 
+            .tarjeta.p-3.h-100.mb-0
+              p.mb-0 <b>Establecer un sistema de monitoreo:</b> Definir los métodos, la frecuencia y los responsables del monitoreo de cada punto crítico de control, así como el registro de los valores obtenidos durante el proceso.
 
-    //- .container
-    //-   .titulo-con-imagen.mb-5(data-aos="fade-right")
-    //-     .titulo-con-imagen__fondo
-    //-       img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
-    //-       h3.titulo-con-imagen__texto B. Técnicas de desinfección: física y química.
+            .tarjeta.p-3.h-100.mb-0
+              p.mb-0 <b>Establecer las acciones correctivas:</b> Determinar las acciones que deben implementarse cuando el monitoreo evidencia que un punto crítico de control se encuentra fuera de los límites críticos establecidos. Estas acciones incluyen la identificación y disposición del producto afectado, así como la eliminación de la causa de la desviación.
+
+            .tarjeta.p-3.h-100.mb-0
+              p.mb-0 <b>Establecer los procedimientos de verificación:</b> Definir las actividades que permitan confirmar que el Sistema HACCP funciona de manera eficaz. Entre ellas se encuentran las auditorías internas, la revisión de las quejas de los clientes, la calibración de los equipos de monitoreo y el muestreo o análisis del producto terminado.
+
+            .tarjeta.p-3.h-100.mb-0
+              p.mb-0 <b>Establecer un sistema de documentación y registro:</b> Mantener documentados el análisis de peligros, los procedimientos del sistema HACCP y todos los registros generados durante la implementación y el seguimiento de cada uno de sus principios.
+
     
-    //- p.mb-5 La desinfección es el proceso que elimina los microorganismos (bacterias, virus, hongos) que no se pudieron eliminar con la limpieza. Solo se aplica sobre superficies previamente limpias.
-
-
-    //- .row.mb-5.justify-content-center.align-items-center
-    //-   .col-lg-12
-    //-     AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-c1")
-    //-       div(titulo="Desinfección física")
-    //-         .row.align-items-center.justify-content-center
-    //-           .col-lg-5.col-md-12.order-2.mb-0.mb-lg-0
-    //-             figure
-    //-               img(src="@/assets/curso/tema4/img25.png", data-aos="zoom-in").mx-auto
-    //-           .col-lg-7.order-1.mb-4.mb-lg-0
-    //-             p.mb-0 Calor (agua caliente o vapor): es el método más efectivo y seguro. Se pueden sumergir utensilios pequeños en agua a 80 °C durante 2 minutos. También se usan lavavajillas industriales que alcanzan altas temperaturas.
-
-    //-       div(titulo="Desinfección química")
-    //-         .row.align-items-center.justify-content-center
-    //-           .col-lg-5.col-md-12.order-2.mb-0.mb-lg-0
-    //-             figure
-    //-               img(src="@/assets/curso/tema4/img26.png", data-aos="zoom-in").mx-auto
-    //-           .col-lg-7.order-1.mb-3.mb-lg-0
-    //-             p.mb-1 Se utiliza una solución de un desinfectante químico aprobado para uso en alimentos. Los principales son: 
-    //-             p.mb-1 Cloro (Hipoclorito de sodio): el más común y económico. Se usa a 100-200 ppm en superficies en contacto con alimentos. Se aplica y deja actuar 5-10 minutos. Puede requerir enjuague posterior.
-    //-             p.mb-1 Amonios cuaternarios: dejan una película residual y no requieren enjuague en superficies no críticas. Efectivos contra un amplio espectro de microorganismos.
-    //-             p.mb-0 Yodóforos: soluciones de yodo, efectivas, pero pueden manchar algunas superficies.
-
-
-    //- .row.align-items-center.mb-5
-    //-   .col-lg-auto.d-none.d-lg-flex
-    //-     img(src="@/assets/curso/tema4/img27.svg").mx-auto
-    //-   .col-lg
-    //-     p.mb-0 La elección del desinfectante y su concentración depende del tipo de superficie y del uso que se le dará. Siempre se deben seguir las instrucciones del fabricante.
-
-
-    //- .row.mb-5.justify-content-center.align-items-center
-    //-   .col-lg-10.col-md-12.mb-0.mb-lg-0
-    //-     .titulo-sexto.color-acento-contenido.mb-3
-    //-       h5 
-    //-         b Tabla 4.
-    //-       span Concentraciones comunes de desinfectantes
-    //-     .tabla-a.color-acento-contenido.tb-custom.mb-0
-    //-       table
-    //-         caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
-    //-         thead
-    //-           tr
-    //-             th Desinfectante
-    //-             th Uso en superficies en contacto con alimentos
-    //-             th Tiempo de contacto
-    //-         tbody
-    //-           tr
-    //-             td Hipoclorito de sodio (Cloro)
-    //-             td 100 - 200 ppm
-    //-             td 5 - 10 minutos
-    //-           tr
-    //-             td Amonios cuaternarios
-    //-             td 200 - 400 ppm (seguir etiqueta)
-    //-             td 10 minutos
-    //-           tr
-    //-             td Yodóforos
-    //-             td 12,5 - 25 ppm
-    //-             td 2 - 5 minutos
-
-
-    //- separador
-    
-    //- #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-    //-   h2 4.3 Manejo integrado de plagas y vectores: prevención, control y erradicación
-
-
-    //- .row.align-items-center.mb-4
-    //-   .col-lg-auto.d-none.d-lg-flex
-    //-     img(src="@/assets/curso/tema4/img28.svg").mx-auto
-    //-   .col-lg
-    //-     p.mb-0 El Manejo Integrado de Plagas (MIP) es una estrategia que utiliza diferentes métodos para prevenir y controlar plagas de manera efectiva y con el menor riesgo posible para las personas y el ambiente. No se basa solo en fumigar; se enfoca en la prevención.
-
-
-    //- p.mb-5 Principios del MIP:
-
-    //- .row.mb-4.justify-content-center.align-items-center
-    //-   .col-lg-4.col-md-10.mb-4.mb-lg-0.order-1.order-lg-1
-    //-     figure
-    //-       img(src="@/assets/curso/tema4/img29.png", data-aos="zoom-in")
-    //-   .col-lg-8.order-2.order-lg-2
-    //-     LineaTiempoD.color-primario
-    //-       .row(numero="1" titulo="Inspección y monitoreo")
-    //-         p.mb-0 Es el punto de partida. Se deben realizar inspecciones periódicas para identificar qué plagas hay, en qué cantidad y dónde se esconden. El monitoreo se hace con trampas (pegajosas para insectos, de cebo para roedores) que se revisan regularmente.
-
-    //-       .row(numero="2" titulo="Identificación")
-    //-         p.mb-0 Es crucial identificar correctamente la plaga para saber cómo combatirla de la mejor manera.
-
-    //-       .row(numero="3" titulo="Prevención (Medidas pasivas)")
-    //-         p.mb-3 Es el pilar más importante y sostenible. Consiste en eliminar las condiciones que atraen y permiten la supervivencia de las plagas. Esto incluye:
-    //-         ul.lista-ul.mb-0
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #8AB064")
-    //-             | Sellamiento de grietas y huecos en paredes, pisos y techos.
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #8AB064")
-    //-             | Colocación de mallas en ventanas y sistemas de ventilación.
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #8AB064")
-    //-             | Mantenimiento del orden y la limpieza: no dejar residuos de alimentos expuestos, limpiar derrames inmediatamente.
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #8AB064")
-    //-             | Manejo adecuado de residuos: tapas bien cerradas, retiro frecuente de basuras.
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #8AB064")
-    //-             | Mantenimiento de las áreas externas: poda de césped y jardines, eliminación de agua estancada.
-
-    //-       .row(numero="4" titulo="Control (Medidas activas)")
-    //-         p.mb-3 Cuando, a pesar de la prevención, aparece una plaga, se deben aplicar medidas de control:
-    //-         ul.lista-ul.mb-0
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #8AB064")
-    //-             | Control físico: uso de trampas de luz, trampas pegajosas, trampas de golpe para roedores.
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #8AB064")
-    //-             | Control químico: aplicación de plaguicidas (insecticidas, raticidas). Esta medida debe ser ejecutada únicamente por personal capacitado y autorizado (empresas de control de plagas certificadas). El personal de la planta nunca debe manipular estos productos.
-
-    //-       .row(numero="5" titulo="Evaluación")
-    //-         p.mb-0 Después de aplicar las medidas de control, se debe evaluar su efectividad a través del monitoreo continuo.
-
-    //- separador
-    
-    //- #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-    //-   h2 4.4 Condiciones de la infraestructura y el entorno
-
-
-    //- .row.align-items-center.mb-4
-    //-   .col-lg-auto.d-none.d-lg-flex
-    //-     img(src="@/assets/curso/tema4/img30.svg").mx-auto
-    //-   .col-lg
-    //-     p.mb-0 La ejecución de las BPM también implica velar por que el entorno físico de trabajo se mantenga en condiciones óptimas. Esto incluye:
-
-
-    //- .row.justify-content-center.mb-4
-    //-   .col-lg-6.col-xl-5.mb-4.mb-lg-4.mb-xl-4
-    //-     .tarjeta-avatar-b.h-100
-    //-       .tarjeta-avatar-b__img
-    //-         img(src='@/assets/curso/tema4/img31.svg' alt='Pisos, paredes y techos')
-    //-       .tarjeta.bg-color-3
-    //-         .p-4
-    //-           h4 Pisos, paredes y techos
-    //-           p.mb-0 Deben estar construidos con materiales lisos, impermeables, no porosos y de fácil limpieza. Se deben revisar periódicamente para detectar y reportar grietas, desprendimientos de pintura o acumulación de humedad.
-
-    //-   .col-lg-6.col-xl-5.mb-4.mb-lg-4.mb-xl-4
-    //-     .tarjeta-avatar-b.h-100
-    //-       .tarjeta-avatar-b__img
-    //-         img(src='@/assets/curso/tema4/img32.svg' alt='Iluminación y ventilación')
-    //-       .tarjeta.bg-color-3
-    //-         .p-4
-    //-           h4 Iluminación y ventilación
-    //-           p.mb-0 Las áreas deben tener buena iluminación para facilitar la limpieza y la detección de suciedad. La ventilación debe ser adecuada para evitar la condensación, el calor excesivo y la acumulación de olores.
-
-    //-   .col-lg-6.col-xl-5.mb-4.mb-lg-4.mb-xl-4
-    //-     .tarjeta-avatar-b.h-100
-    //-       .tarjeta-avatar-b__img
-    //-         img(src='@/assets/curso/tema4/img33.svg' alt='Puertas y ventanas')
-    //-       .tarjeta.bg-color-3
-    //-         .p-4
-    //-           h4 Puertas y ventanas
-    //-           p.mb-0 Deben tener superficies lisas y de fácil limpieza. Las ventanas que se abren al exterior deben tener malla antipájaros e insectos.
-
-    //-   .col-lg-6.col-xl-5.mb-4.mb-lg-4.mb-xl-0
-    //-     .tarjeta-avatar-b
-    //-       .tarjeta-avatar-b__img
-    //-         img(src='@/assets/curso/tema4/img34.svg' alt='Drenajes y rejillas')
-    //-       .tarjeta.bg-color-3.h-100
-    //-         .p-4
-    //-           h4 Drenajes y rejillas
-    //-           p.mb-0 Deben mantenerse limpios y en buen estado, con sus tapas bien colocadas para evitar el ingreso de plagas desde el alcantarillado.
-
-    //- separador
-    
-    //- #t_4_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-    //-   h2 4.5 Recepción, almacenamiento y rotación de materias primas e insumos
   
-
-    //- .row.align-items-center.mb-5
-    //-   .col-lg-auto.d-none.d-lg-flex
-    //-     img(src="@/assets/curso/tema4/img35.svg").mx-auto
-    //-   .col-lg
-    //-     p.mb-0 La calidad del producto final depende directamente de la calidad de las materias primas que se utilizan. Por eso, su manejo es un punto crítico.
-
-
-    //- .row.justify-content-center.mb-5
-    //-   .col-lg-8.mb-lg-0.mb-4
-    //-     AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-3 bg-color-nuevo")
-    //-       div(titulo="Recepción")
-    //-         p.mb-3 Al llegar un proveedor, se debe inspeccionar la materia prima. Se verifica:
-    //-         ul.lista-ul.mb-0
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #B37900")
-    //-             | Condiciones del vehículo de transporte: limpieza y temperatura.
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #B37900")
-    //-             | Empaques: que estén íntegros, sin roturas, humedad o signos de contaminación.
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #B37900")
-    //-             | Fecha de vencimiento: el producto debe tener una vida útil suficiente.
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #B37900")
-    //-             | Características organolépticas: olor, color y textura acordes a lo esperado.
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #B37900")
-    //-             | Temperatura: si es un producto perecedero (lácteos, carnes), se mide la temperatura interior para verificar que la cadena de frío no se haya roto.
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #B37900")
-    //-             | Toda esta información se registra en un formato de "recepción de materias primas".
-
-    //-       div(titulo="Almacenamiento")
-    //-         p.mb-3 Cada tipo de materia prima tiene requisitos específicos:
-    //-         ul.lista-ul.mb-0
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #B37900")
-    //-             | Productos secos (harinas, azúcares, granos): se almacenan en un lugar fresco, seco y ventilado, sobre estibas separadas del piso (mínimo 15 cm) y de la pared (mínimo 50 cm) para permitir la limpieza e inspección.
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #B37900")
-    //-             | Productos refrigerados (lácteos, huevos, algunas frutas): se almacenan en cámaras de refrigeración entre 2 °C y 5 °C.
-    //-           li
-    //-             i.lista-ul__vineta(style="color: #B37900")
-    //-             | Productos congelados (carnes, verduras congeladas): se almacenan en congeladores a -18 °C o menos.
-
-    //-       div(titulo="Rotación de inventarios (PEPS - Primero en Entrar, Primero en Salir)")
-    //-         p.mb-0 El método PEPS (Primero en Entrar, Primero en Salir) es fundamental para evitar el vencimiento de productos. Consiste en colocar los productos nuevos (con fecha de vencimiento más lejana) detrás de los más antiguos (con fecha de vencimiento más cercana), para que estos últimos sean los primeros en usarse.
-
-    //-   .col-lg-4.col-md-8
-    //-     img(src="@/assets/curso/tema4/img36.png", data-aos="zoom-in")
+    .row.justify-content-center.mb-5
+      .col-md-12.col-lg-10.col-xl-10.mb-4
+        .tarjeta-avatar-b.h-100
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema4/img14.svg' alt='')
+          .tarjeta.bg-color-0.h-100
+            .px-2.py-3
+              p.mb-0.p-1 Además de conocer los principios del sistema HACCP, es importante diferenciar los programas prerrequisito (PPR) de los Puntos Críticos de Control (PCC), ya que ambos cumplen funciones complementarias dentro del sistema de gestión de la inocuidad.
 
 
-    //- separador
-    
-    //- #t_4_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-    //-   h2 4.6 Verificación de variables técnicas del proceso (temperaturas, tiempos, concentraciones)
+    .row.justify-content-center.mb-5
+      .col-xl-5.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema4/img15.png", alt="Programas prerrequisito (PPR)")
+          .crd_hover_txt--body
+            h4.mb-3.text-center Programas prerrequisito (PPR)
+            p.mb-0 Corresponden a programas generales orientados a mantener condiciones higiénicas durante el proceso productivo y a controlar los peligros de manera preventiva. Se aplican a toda la organización. Algunos ejemplos son los Procedimientos Operativos Estandarizados de Saneamiento (POES), el programa de control de plagas y el programa de capacitación del personal.
 
-    //- .row.align-items-center.mb-5
-    //-   .col-lg-auto.d-none.d-lg-flex
-    //-     img(src="@/assets/curso/tema4/img37.svg").mx-auto
-    //-   .col-lg
-    //-     p.mb-0 Durante la producción, es necesario verificar que las variables críticas del proceso se están cumpliendo. Estas variables están definidas en las recetas estándar y en los manuales de calidad.
+      .col-xl-5.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema4/img16.png", alt="Punto Crítico de Control (PCC)")
+          .crd_hover_txt--body
+            h4.mb-3.text-center Punto Crítico de Control (PCC)
+            p.mb-0 Corresponde a una etapa específica del proceso en la que se aplica una medida de control esencial para prevenir, eliminar o reducir un peligro significativo hasta un nivel aceptable. Algunos ejemplos son un proceso de cocción para eliminar microorganismos patógenos o un detector de metales ubicado al final de la línea de producción.
 
-
-    //- .row.mb-5.mb-lg-4.justify-content-center.align-items-center
-    //-   .col-lg-5.col-md-10.mb-4.mb-lg-0.order-1.order-lg-1
-    //-     figure
-    //-       img(src="@/assets/curso/tema4/img38.png", data-aos="zoom-in")
-    //-   .col-lg-7.order-2.order-lg-2
-    //-     LineaTiempoD.color-primario
-    //-       .row(numero="1" titulo="Temperaturas")
-    //-         p.mb-0 Se deben medir y registrar las temperaturas de cocción (por ejemplo, "el centro del pollo asado debe alcanzar 74 °C"), las temperaturas de los equipos de refrigeración y congelación, y las temperaturas de mantenimiento en caliente (por ejemplo, "las salsas calientes deben mantenerse por encima de 65 °C").
-
-    //-       .row(numero="2" titulo="Tiempos")
-    //-         p.mb-0 Se deben controlar los tiempos de procesos como batido, cocción, enfriamiento y desinfección (tiempo de contacto del desinfectante).
-
-    //-       .row(numero="3" titulo="Concentraciones")
-    //-         p.mb-0 En la preparación de soluciones desinfectantes o en la estandarización de productos (ej. jarabes, salmueras), se deben verificar las concentraciones con los instrumentos adecuados (ej. refractómetro, clorímetro).
 
     
-    //- .row.mb-5.justify-content-center.align-items-center
-    //-   .col-lg-12
-    //-     .bg-color-3.p-4.br-15
-    //-       p.mb-0.text-center La verificación de estas variables debe realizarse durante la operación y los resultados deben registrarse en los formatos correspondientes.
+    .bg-full-width.bg-fondo-1
+      .row.justify-content-center.align-items-center.z-2.mb-5
+        .col-lg-8
+          .titulo-sexto.color-acento-contenido.mb-4
+            h5.mb-2.text-bold Figura 4.
+            span Secuencia lógica para la aplicación del sistema HACCP
+          img.mb-2.d-none.d-lg-flex(data-aos="fade-up", src="@/assets/curso/tema4/img17.svg", alt="La figura 4 describe la secuencia lógica para la aplicación del sistema HACCP, en primer lugar, formar al equipo HACCP, segundo lugar describir el producto y tercer lugar construir el diagrama de flujo del proceso, cuarto lugar verificar en sitio el diagrama de flujo, y luego aplicar los respectivos 7 principios. 1. Analizar peligros, 2. Determinar PCC, 3. Límites crítico, 4. Monitoreo, 5. Acciones correcta, 6. Verificación, 7. Documentación.").mx-auto
+          img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema4/img18.svg", alt="La figura 4 describe la secuencia lógica para la aplicación del sistema HACCP, en primer lugar, formar al equipo HACCP, segundo lugar describir el producto y tercer lugar construir el diagrama de flujo del proceso, cuarto lugar verificar en sitio el diagrama de flujo, y luego aplicar los respectivos 7 principios. 1. Analizar peligros, 2. Determinar PCC, 3. Límites crítico, 4. Monitoreo, 5. Acciones correcta, 6. Verificación, 7. Documentación.").mx-auto
+          figcaption Nota. SENA, (2026). 
+    
 
-    //- .row.mb-5.justify-content-center.align-items-center
-    //-   .col-lg-12.col-md-12.mb-0.mb-lg-0
-    //-     .titulo-sexto.color-acento-contenido.mb-3
-    //-       h5 
-    //-         b Tabla 5.
-    //-       span Ejemplo de verificación de variables técnicas en un proceso de horneado
-    //-     .tabla-a.color-acento-contenido.tb-custom.mb-0
-    //-       table
-    //-         caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
-    //-         thead
-    //-           tr
-    //-             th Variable
-    //-             th Estándar
-    //-             th Hora
-    //-             th Medición
-    //-             th Cumple (Sí/No)
-    //-             th Observación / Acción
-    //-         tbody
-    //-           tr
-    //-             td Temperatura del horno
-    //-             td 180 °C
-    //-             td 10:00 AM
-    //-             td 182 °C
-    //-             td Sí
-    //-             td -
-    //-           tr
-    //-             td Tiempo de horneado
-    //-             td 25 min
-    //-             td 10:25 AM
-    //-             td -
-    //-             td Sí
-    //-             td Se retiró a los 25 min
-    //-           tr
-    //-             td Temperatura interna del producto
-    //-             td 95 °C
-    //-             td 10:30 AM
-    //-             td 94 °C
-    //-             td Sí
-    //-             td Dentro del rango aceptable
-    //-           tr
-    //-             td Temperatura del horno
-    //-             td 180 °C
-    //-             td 11:00 AM
-    //-             td 170 °C
-    //-             td No
-    //-             td Se llamó a mantenimiento para revisión del termostato
+    separador
+    
+    #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 4.3 Barreras primarias: control de materia prima, procesos y personal
 
+    .bloque-texto-g.bg-color-04.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require_src('@/assets/curso/tema4/img19.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Además de los sistemas estructurados, como el Sistema de Análisis de Peligros y Puntos Críticos de Control (HACCP), la prevención de la contaminación durante la producción depende de la aplicación permanente de controles operacionales. Estas barreras primarias actúan como un mecanismo de prevención continuo y su eficacia está directamente relacionada con la verificación sistemática de las actividades desarrolladas en cada etapa del proceso.
+
+
+    .row.mb-4.justify-content-center.align-items-center
+      .col-lg-4.col-md-8.mb-4.mb-lg-0.order-1.order-lg-2
+        figure
+          img(src="@/assets/curso/tema4/img20.png", data-aos="zoom-in")
+      .col-lg-8.order-2.order-lg-1.mb-4.mb-lg-0
+
+        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-03 bg-color-nuevo").mb-0
+          div(titulo="Recepción de materias primas")
+            p.mb-0 Constituye la primera barrera de control. Antes de aceptar un lote de materia prima, se debe verificar que cumpla con las especificaciones de calidad e inocuidad establecidas con el proveedor. Para ello, se revisan los certificados de análisis, se realiza una inspección sensorial (olor, color, textura y ausencia de daños), se mide la temperatura al momento de la recepción, se verifica la integridad de los empaques y, cuando corresponda, se toman muestras para efectuar análisis rápidos (por ejemplo, pH o °Brix) o análisis de laboratorio.
+
+          div(titulo="Almacenamiento")
+            p.mb-0 Una vez aceptadas, las materias primas deben almacenarse en condiciones que prevengan su deterioro y contaminación. Para ello, se deben mantener las temperaturas de conservación establecidas (refrigeración, congelación o almacenamiento en ambiente fresco y seco), garantizar la protección contra plagas y asegurar la separación de productos químicos y alérgenos.
+
+          div(titulo="Control durante el procesamiento")
+            p.mb-0 Consiste en la verificación permanente de las variables críticas del proceso de transformación. Incluye el monitoreo y registro de parámetros como la temperatura de cocción o enfriamiento, el pH durante procesos de fermentación, la velocidad de la línea de producción, la presión de un homogeneizador y los tiempos de proceso. Asimismo, comprende la verificación del cumplimiento de los Procedimientos Operativos Estandarizados de Saneamiento (POES) durante las pausas de producción y los cambios de turno, con el propósito de asegurar que los peligros permanezcan bajo control y que el producto final cumpla con los requisitos de inocuidad.
+
+          div(titulo="Control del personal manipulador")
+            p.mb-0 Constituye una de las barreras más importantes para prevenir la contaminación de los alimentos y requiere una verificación permanente del cumplimiento de las prácticas higiénicas. Entre los aspectos que deben verificarse se encuentran el lavado correcto y frecuente de las manos, el uso adecuado y limpio de la dotación y de los elementos de protección personal, la ausencia de joyas, el mantenimiento de uñas cortas y sin esmalte, el reporte oportuno de enfermedades o lesiones que puedan representar un riesgo para la inocuidad y la participación en las actividades de capacitación programadas por la organización.
+
+
+    separador
+    
+    #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 4.4 Acciones correctivas y preventivas ante hallazgos
+
+
+    .row.mb-5.justify-content-center.align-items-center
+      .col-lg-4.col-md-10.mb-0.mb-lg-0.order-2.order-lg-1
+        figure
+          img(src="@/assets/curso/tema4/img21.png", data-aos="zoom-in")
+      .col-lg-8.order-1.order-lg-2.mb-4.mb-lg-0
+        p.mb-4 La gestión de los hallazgos y de las no conformidades constituye un elemento fundamental para el mejoramiento continuo de los sistemas de inocuidad alimentaria. La atención de una no conformidad no debe limitarse a corregir el problema identificado, sino que debe orientarse a eliminar la causa que lo originó, con el fin de prevenir su recurrencia.
+        
+        .bg-color-02.p-4.br-15.mb-0
+          p.mb-0 Cuando se identifica una no conformidad, puede emplearse la metodología de los cinco porqués, una herramienta de análisis que facilita la identificación de la causa raíz del problema mediante una secuencia de preguntas.
+
+
+    .container
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
+          h3.titulo-con-imagen__texto Ejemplo de aplicación de la metodología de los cinco porqués:
+
+
+    
+    .row.mb-5.justify-content-center.align-items-center
+      .col-lg-3.col-md-8.mb-0.mb-lg-0.order-2.order-lg-2.d-none.d-lg-block
+        figure
+          img(src="@/assets/curso/tema4/img22.png", data-aos="zoom-in")
+      .col-lg-9.order-1.order-lg-1.mb-0.mb-lg-0
+        .bg-color-01.p-4.br-15.mb-0
+          p.mb-4 <b>No conformidad:</b> superficie de acero inoxidable con recuento microbiológico alto.
+
+          ul.lista-ul--color.mb-0
+            li.d-block.mb-3
+              .d-flex.align-items-center.mb-1
+                i.fas.fa-circle-check.me-2(style="color: #9AB3EB;")
+                b ¿Por qué?
+              .ps-4
+                p.mb-0 Porque la desinfección no fue efectiva.
+
+            li.d-block.mb-3
+              .d-flex.align-items-center.mb-1
+                i.fas.fa-circle-check.me-2(style="color: #9AB3EB;")
+                b ¿Por qué no fue efectiva?
+              .ps-4
+                p.mb-0 Porque el desinfectante se preparó con una concentración inferior a la indicada.
+
+            li.d-block.mb-3
+              .d-flex.align-items-center.mb-1
+                i.fas.fa-circle-check.me-2(style="color: #9AB3EB;")
+                b ¿Por qué se preparó con una concentración inferior?
+              .ps-4
+                p.mb-0 Porque el operario no midió la cantidad correcta.
+
+            li.d-block.mb-3
+              .d-flex.align-items-center.mb-1
+                i.fas.fa-circle-check.me-2(style="color: #9AB3EB;")
+                b ¿Por qué no midió la cantidad correcta?
+              .ps-4
+                p.mb-0 Porque no había una jarra medidora disponible y realizó la preparación de forma aproximada.
+
+            li.d-block.mb-0
+              .d-flex.align-items-center.mb-1
+                i.fas.fa-circle-check.me-2(style="color: #9AB3EB;")
+                b ¿Por qué no había una jarra medidora disponible?
+              .ps-4
+                p.mb-0 Porque la anterior se había deteriorado y no fue reemplazada. 
+
+
+    .row.justify-content-center.mb-5
+      .col-md-12.col-lg-10.col-xl-10.mb-4
+        .tarjeta-avatar-b.h-100
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema4/img23.svg' alt='')
+          .tarjeta.bg-color-0.h-100
+            .px-2.py-3
+              p.mb-0.p-1 Causa raíz: falta de reposición de las herramientas de medición, lo que originó una práctica inadecuada durante la preparación del desinfectante.
+
+      .col-md-12.col-lg-10.col-xl-10.mb-4
+        .tarjeta-avatar-b.h-100
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema4/img24.svg' alt='')
+          .tarjeta.bg-color-0.h-100
+            .px-2.py-3
+              p.mb-0.p-1 Acción correctiva: adquirir e instalar nuevas jarras medidoras en los puntos de preparación y reforzar la capacitación sobre el procedimiento para la preparación de soluciones desinfectantes.
+
+
+    
+    .row.mb-5.justify-content-center.align-items-center
+      .col-lg-5.col-md-8.mb-4.mb-lg-0.order-1.order-lg-1
+        figure
+          img(src="@/assets/curso/tema4/img25.png", data-aos="zoom-in")
+      .col-lg-7.order-2.order-lg-2.mb-0.mb-lg-0
+        .bg-color-02.p-4.br-15.mb-0
+          p.mb-4 Una vez identificada la causa raíz, se debe implementar la acción correctiva o preventiva correspondiente. Para garantizar su eficacia, esta debe cumplir las siguientes características:
+          ul.lista-ul--color.mb-0
+            li.d-flex 
+              i.fas.fa-circle-check
+              span <b>Específica:</b> definir con claridad la actividad que se implementará.
+            li.d-flex 
+              i.fas.fa-circle-check
+              span <b>Medible:</b> establecer el criterio que permitirá comprobar su cumplimiento.
+            li.d-flex 
+              i.fas.fa-circle-check
+              span <b>Asignada:</b> designar el responsable de su ejecución.
+            li.d-flex 
+              i.fas.fa-circle-check
+              span <b>Con plazo:</b> establecer la fecha límite para su implementación.
+            li.d-flex 
+              i.fas.fa-circle-check
+              span <b>Verificada:</b> confirmar posteriormente que la acción implementada fue eficaz y que la no conformidad no volvió a presentarse.
+
+
+    
+    .bg-full-width.bg-fondo-1
+      .row.justify-content-center.align-items-center.z-2.mb-5
+        .col-lg-8
+          .titulo-sexto.color-acento-contenido.mb-4
+            h5.mb-2.text-bold Figura 5.
+            span Metodología de los 5 porqués para análisis de causa raíz
+          img.mb-2.d-none.d-lg-flex(data-aos="fade-up", src="@/assets/curso/tema4/img26.svg", alt="La figura 5, describe la metodología de los 5 porqués en el análisis de causa raíz, primero definiendo el problema, después preguntándose 5 veces porque, y finalmente resaltar la causa raíz y su respectiva acción a resolver el problema.").mx-auto
+          img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema4/img27.svg", alt="La figura 5, describe la metodología de los 5 porqués en el análisis de causa raíz, primero definiendo el problema, después preguntándose 5 veces porque, y finalmente resaltar la causa raíz y su respectiva acción a resolver el problema.").mx-auto
+          figcaption Nota. SENA, (2026). 
+
+    p.mb-5 Para complementar los contenidos abordados sobre el diagnóstico sanitario, los principios del Sistema de Análisis de Peligros y Puntos Críticos de Control (HACCP) y la implementación de medidas preventivas, se invita a escuchar el siguiente pódcast. Este recurso permite reforzar la importancia del análisis de riesgos, la aplicación de acciones correctivas y preventivas, y el fortalecimiento de la mejora continua como elementos fundamentales para garantizar la inocuidad en la industria alimentaria.
+
+    .container
+      .row.justify-content-center.align-items-center.mb-3
+        .col-lg-7.order-lg-1.order-2
+          .row.bg-color-3.align-items-center.justify-content-center.br-15.p-0
+            .col-md-8.col-lg-5.mb-3.mb-lg-0.order-2.order-md-2.order-lg-1.p-0
+              figure
+                img(src="@/assets/curso/tema2/img55.png", data-aos="fade-right").w-md-75.mx-auto
+            .col-lg-7.order-1.order-md-1.order-lg-2.p-4.p-lg-3
+              h4 ¿Sabías qué?
+              p(data-aos="fade-left").mb-4 Lo invitamos a escuchar el siguiente podcast:
+              TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
+                texto="Podcast pendiente"
+                tiempo
+                :audio="require_src('@/assets/curso/audio/2.mp3')"
+              )
+        .col-lg-5.col-md-10.order-lg-2.order-1.mb-4.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema4/img28.png", data-aos="zoom-in")
 
 </template>
 
