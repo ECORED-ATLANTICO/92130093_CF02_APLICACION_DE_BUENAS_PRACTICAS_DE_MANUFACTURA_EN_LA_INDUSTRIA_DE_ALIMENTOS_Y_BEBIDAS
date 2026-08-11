@@ -257,18 +257,18 @@
         .bg-color-02.p-4.br-15.mb-0
           p.mb-3 Una de las formas de contaminación corresponde a la contaminación primaria o directa, la cual ocurre cuando el peligro proviene directamente de la fuente del alimento o de su entorno natural inmediato. Algunos ejemplos son:
           ul.lista-ul--color.mb-0
-            li 
-              i.fas.fa-circle-check
-              | Una fruta contaminada con residuos de plaguicidas en el campo. 
-            li 
-              i.fas.fa-circle-check
-              | Un pescado que contiene parásitos de forma natural (anisakis). 
-            li 
-              i.fas.fa-circle-check
-              | Un huevo contaminado con Salmonella desde el interior de la gallina. 
-            li 
-              i.fas.fa-circle-check
-              | Granos que desarrollan micotoxinas debido a condiciones inadecuadas de humedad durante el cultivo o el almacenamiento primario. 
+            li.d-flex 
+              i.fas.fa-circle-check.me-2
+              span Una fruta contaminada con residuos de plaguicidas en el campo. 
+            li.d-flex 
+              i.fas.fa-circle-check.me-2
+              span Un pescado que contiene parásitos de forma natural (anisakis). 
+            li.d-flex 
+              i.fas.fa-circle-check.me-2
+              span Un huevo contaminado con Salmonella desde el interior de la gallina. 
+            li.d-flex 
+              i.fas.fa-circle-check.me-2
+              span Granos que desarrollan micotoxinas debido a condiciones inadecuadas de humedad durante el cultivo o el almacenamiento primario. 
 
     p.mb-5 Por otra parte, la contaminación cruzada corresponde a la transferencia de peligros desde una superficie, alimento o persona contaminada hacia otro alimento que inicialmente no se encontraba contaminado. Constituye una de las causas más frecuentes y prevenibles de las enfermedades transmitidas por alimentos (ETA), y generalmente se origina por fallas en los programas de saneamiento o por el incumplimiento de las Buenas Prácticas de Manufactura.
     
@@ -279,18 +279,18 @@
             .col-lg-8.mb-4.mb-lg-0
               p.mb-3 Las principales rutas de contaminación cruzada son:
               ul.lista-ul--color.mb-0
-                li 
-                  i.fas.fa-circle-check
-                  | <b>De alimento a alimento:</b> ocurre cuando un alimento crudo, como el pollo, gotea sobre un alimento listo para el consumo, como una ensalada, durante el almacenamiento en refrigeración o la preparación sobre la misma superficie. 
-                li 
-                  i.fas.fa-circle-check
-                  | <b>De superficie a alimento:</b> ocurre cuando un alimento cocido se corta sobre la misma tabla utilizada previamente para cortar pollo crudo, sin realizar el proceso de limpieza y desinfección entre usos. También puede presentarse cuando un alimento listo para el consumo entra en contacto con mesas, recipientes o cuchillos que no han sido adecuadamente higienizados. 
-                li 
-                  i.fas.fa-circle-check
-                  | <b>Del manipulador al alimento:</b> ocurre cuando el personal manipula alimentos listos para el consumo sin realizar previamente el lavado de manos después de utilizar los servicios sanitarios, manipular dinero o tocarse el cabello o el rostro. Las manos constituyen uno de los principales vehículos de contaminación cruzada. 
-                li 
-                  i.fas.fa-circle-check
-                  | <b>Del ambiente al alimento:</b> ocurre cuando partículas de polvo, salpicaduras de agua contaminada, aerosoles generados durante las actividades de limpieza o corrientes de aire transportan contaminantes desde áreas sucias hacia áreas limpias.
+                li.d-flex 
+                  i.fas.fa-circle-check.me-2
+                  span <b>De alimento a alimento:</b> ocurre cuando un alimento crudo, como el pollo, gotea sobre un alimento listo para el consumo, como una ensalada, durante el almacenamiento en refrigeración o la preparación sobre la misma superficie. 
+                li.d-flex 
+                  i.fas.fa-circle-check.me-2
+                  span <b>De superficie a alimento:</b> ocurre cuando un alimento cocido se corta sobre la misma tabla utilizada previamente para cortar pollo crudo, sin realizar el proceso de limpieza y desinfección entre usos. También puede presentarse cuando un alimento listo para el consumo entra en contacto con mesas, recipientes o cuchillos que no han sido adecuadamente higienizados. 
+                li.d-flex 
+                  i.fas.fa-circle-check.me-2
+                  span <b>Del manipulador al alimento:</b> ocurre cuando el personal manipula alimentos listos para el consumo sin realizar previamente el lavado de manos después de utilizar los servicios sanitarios, manipular dinero o tocarse el cabello o el rostro. Las manos constituyen uno de los principales vehículos de contaminación cruzada. 
+                li.d-flex 
+                  i.fas.fa-circle-check.me-2
+                  span <b>Del ambiente al alimento:</b> ocurre cuando partículas de polvo, salpicaduras de agua contaminada, aerosoles generados durante las actividades de limpieza o corrientes de aire transportan contaminantes desde áreas sucias hacia áreas limpias.
 
             .col-lg-4.col-md-8.mb-0
               figure

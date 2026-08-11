@@ -329,19 +329,19 @@
           p.mb-4 Una vez identificada la causa raíz, se debe implementar la acción correctiva o preventiva correspondiente. Para garantizar su eficacia, esta debe cumplir las siguientes características:
           ul.lista-ul--color.mb-0
             li.d-flex 
-              i.fas.fa-circle-check
+              i.fas.fa-circle-check.me-2
               span <b>Específica:</b> definir con claridad la actividad que se implementará.
             li.d-flex 
-              i.fas.fa-circle-check
+              i.fas.fa-circle-check.me-2
               span <b>Medible:</b> establecer el criterio que permitirá comprobar su cumplimiento.
             li.d-flex 
-              i.fas.fa-circle-check
+              i.fas.fa-circle-check.me-2
               span <b>Asignada:</b> designar el responsable de su ejecución.
             li.d-flex 
-              i.fas.fa-circle-check
+              i.fas.fa-circle-check.me-2
               span <b>Con plazo:</b> establecer la fecha límite para su implementación.
             li.d-flex 
-              i.fas.fa-circle-check
+              i.fas.fa-circle-check.me-2
               span <b>Verificada:</b> confirmar posteriormente que la acción implementada fue eficaz y que la no conformidad no volvió a presentarse.
 
 

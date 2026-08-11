@@ -64,21 +64,21 @@
           .row.align-items-center.justify-content-center
             .col-lg-7.mb-3.mb-lg-0
               ul.lista-ul--color.mb-0
-                li 
-                  i.fas.fa-circle-check
-                  | Limpieza y desinfección (artículo 24).
-                li 
-                  i.fas.fa-circle-check
-                  | Control de plagas (artículo 25).
-                li 
-                  i.fas.fa-circle-check
-                  | Manejo de residuos sólidos y líquidos (artículo 20).
-                li 
-                  i.fas.fa-circle-check
-                  | Abastecimiento de agua potable (artículo 11).
-                li 
-                  i.fas.fa-circle-check
-                  | Mantenimiento de instalaciones y equipos (artículo 15).
+                li.d-flex 
+                  i.fas.fa-circle-check.me-2
+                  span Limpieza y desinfección (artículo 24).
+                li.d-flex 
+                  i.fas.fa-circle-check.me-2
+                  span Control de plagas (artículo 25).
+                li.d-flex 
+                  i.fas.fa-circle-check.me-2
+                  span Manejo de residuos sólidos y líquidos (artículo 20).
+                li.d-flex 
+                  i.fas.fa-circle-check.me-2
+                  span Abastecimiento de agua potable (artículo 11).
+                li.d-flex 
+                  i.fas.fa-circle-check.me-2
+                  span Mantenimiento de instalaciones y equipos (artículo 15).
             .col-lg-5.col-md-8
               figure
                 img(src="@/assets/curso/tema1/img06.png", data-aos="zoom-in").mx-auto
@@ -158,38 +158,38 @@
         p.mb-4(data-aos="fade-right") Para que un programa de saneamiento sea verificable, debe estar correctamente documentado. La documentación no es un fin en sí misma, pero es la herramienta que permite estandarizar, comunicar y demostrar lo que se hace. Un programa de saneamiento típico debe contener los siguientes elementos:
         
         ol.lista-ol--cuadro.lista-ol--separador
-          li 
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span A
-            | Objetivo: ¿para qué sirve el programa?
-          li 
+            span <b>Objetivo:</b> ¿para qué sirve el programa?
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span B
-            | Alcance: ¿a qué áreas, equipos o procesos aplica?
-          li 
+            span <b>Alcance:</b> ¿a qué áreas, equipos o procesos aplica?
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span C
-            | Responsabilidades: ¿quién hace qué? (ejecuta, supervisa, verifica, aprueba).
-          li 
+            span <b>Responsabilidades:</b> ¿quién hace qué? (ejecuta, supervisa, verifica, aprueba).
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span D
-            | Procedimientos (POES): descripción detallada de las actividades, paso a paso.
-          li 
+            span <b>Procedimientos (POES):</b> descripción detallada de las actividades, paso a paso.
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span E
-            | Frecuencias: ¿cada cuánto se realiza cada actividad?
-          li 
+            span <b>Frecuencias:</b> ¿cada cuánto se realiza cada actividad?
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span F
-            | Productos e insumos: listado de productos químicos utilizados, con sus fichas técnicas y hojas de seguridad (SDS).
-          li 
+            span <b>Productos e insumos:</b> listado de productos químicos utilizados, con sus fichas técnicas y hojas de seguridad (SDS).
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span G
-            | Registros: formatos diseñados para dejar evidencia de la ejecución y verificación (ej. listas de chequeo, bitácoras).
-          li 
+            span <b>Registros:</b> formatos diseñados para dejar evidencia de la ejecución y verificación (ej. listas de chequeo, bitácoras).
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span H
-            | Indicadores: ¿cómo se mide la eficacia del programa? (ej. % de resultados microbiológicos conformes).
+            span <b>Indicadores:</b> ¿cómo se mide la eficacia del programa? (ej. % de resultados microbiológicos conformes).
 
     .bg-full-width.bg-fondo-1
       .row.mb-5.justify-content-center.align-items-center

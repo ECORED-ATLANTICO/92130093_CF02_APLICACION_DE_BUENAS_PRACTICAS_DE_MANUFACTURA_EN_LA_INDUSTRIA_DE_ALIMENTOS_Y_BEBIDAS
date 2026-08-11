@@ -87,12 +87,12 @@
         .bg-color-02.p-4.br-15.mb-0
           p.mb-2 Algunos ejemplos de criterios de aceptación son los siguientes:
           ul.lista-ul--color.mb-0
-            li 
-              i.fas.fa-circle-check
-              | <b>Bioluminiscencia (ATP):</b> < 30 URL = limpio; 30-100 URL = aceptable (requiere revisión); > 100 URL = sucio (requiere acción correctiva).
-            li 
-              i.fas.fa-circle-check
-              | <b>Criterio microbiológico:</b> recuento de aerobios mesófilos < 100 UFC/100 cm² en superficies en contacto con alimentos después del proceso de desinfección.
+            li.d-flex 
+              i.fas.fa-circle-check.me-2
+              span <b>Bioluminiscencia (ATP):</b> &lt; 30 URL = limpio; 30-100 URL = aceptable (requiere revisión); &gt; 100 URL = sucio (requiere acción correctiva).
+            li.d-flex 
+              i.fas.fa-circle-check.me-2
+              span <b>Criterio microbiológico:</b> recuento de aerobios mesófilos &lt; 100 UFC/100 cm² en superficies en contacto con alimentos después del proceso de desinfección.
 
     separador
     
@@ -582,21 +582,21 @@
           .row.align-items-center.justify-content-center
             .col-lg-7.mb-0.mb-lg-0
               ul.lista-ul--color.mb-0
-                li 
-                  i.fas.fa-circle-check
-                  | Lavado de manos. 
-                li 
-                  i.fas.fa-circle-check
-                  | Manejo de residuos. 
-                li 
-                  i.fas.fa-circle-check
-                  | Reporte de condiciones inseguras. 
-                li 
-                  i.fas.fa-circle-check
-                  | Buenas Prácticas de Manufactura (BPM). 
-                li 
-                  i.fas.fa-circle-check
-                  | Programas de saneamiento e inocuidad alimentaria. 
+                li.d-flex 
+                  i.fas.fa-circle-check.me-2
+                  span Lavado de manos. 
+                li.d-flex 
+                  i.fas.fa-circle-check.me-2
+                  span Manejo de residuos. 
+                li.d-flex 
+                  i.fas.fa-circle-check.me-2
+                  span Reporte de condiciones inseguras. 
+                li.d-flex 
+                  i.fas.fa-circle-check.me-2
+                  span Buenas Prácticas de Manufactura (BPM). 
+                li.d-flex 
+                  i.fas.fa-circle-check.me-2
+                  span Programas de saneamiento e inocuidad alimentaria. 
 
             .col-lg-5.col-md-8.d-none.d-lg-block
               figure
