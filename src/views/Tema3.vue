@@ -46,7 +46,7 @@
           figure
             img(src="@/assets/curso/tema3/img03.png", data-aos="zoom-in")
         .col-lg-8.order-2.order-lg-2.col-md-12.mb-4.mb-lg-0
-          SlyderF(columnas="col-lg-6 col-xl-6 col-md-12 col-sm-12 p-2")
+          SlyderF(columnas="col-lg-12 col-xl-6 col-md-12 col-sm-12 p-2")
             .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-8
@@ -117,7 +117,7 @@
           figure
             img(src="@/assets/curso/tema3/img11.png", data-aos="zoom-in")
         .col-lg-8.order-2.order-lg-2.col-md-12.mb-4.mb-lg-0
-          SlyderF(columnas="col-lg-6 col-xl-6 col-md-12 col-sm-12 p-2")
+          SlyderF(columnas="col-lg-12 col-xl-6 col-md-12 col-sm-12 p-2")
             .tarjeta.tarjeta--blanca.shadow-sm.p-0.h-100
               img(src='@/assets/curso/tema3/img12.png' alt='').mx-auto
               .p-4

@@ -116,7 +116,7 @@
           figure
             img(src="@/assets/curso/tema2/img10.png", data-aos="zoom-in")
         .col-lg-8.order-2.order-lg-2.col-md-12.mb-4.mb-lg-0
-          SlyderF(columnas="col-lg-6 col-xl-6 col-md-12 col-sm-12 p-2")
+          SlyderF(columnas="col-lg-12 col-xl-6 col-md-12 col-sm-12 p-2")
             .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-8
@@ -517,7 +517,7 @@
         figure
           img(src="@/assets/curso/tema2/img41.png", data-aos="zoom-in")
       .col-lg-8.order-2.order-lg-1.col-md-12.mb-4.mb-lg-0
-        SlyderF(columnas="col-lg-6 col-xl-6 col-md-12 col-sm-12 p-2")
+        SlyderF(columnas="col-lg-12 col-xl-6 col-md-12 col-sm-12 p-2")
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
@@ -614,7 +614,7 @@
               img(src="@/assets/curso/tema2/img46.png", alt="Evaluaciones escritas o prácticas")
           .crd_hover_txt--body
             h4.mb-3.text-center Evaluaciones escritas o prácticas
-            p.mb-0 Permiten valorar el nivel de comprensión alcanzado al finalizar las actividades de capacitación.
+            p.mb-0.p-lg-0.p-1 Permiten valorar el nivel de comprensión alcanzado al finalizar las actividades de capacitación.
 
       .col-xl-4.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
